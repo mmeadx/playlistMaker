@@ -22,13 +22,16 @@ Once it's created a list of those found, it searches Spotify for the songs and c
 ![Imports](./static/imports.png)
 
 _Documentation for imports_
+
 [Requests](https://docs.python-requests.org/en/latest/)
+
 [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
 [Spotipy](https://spotipy.readthedocs.io/en/2.19.0/)
 
-*Code*
+### Code ###
 
-The first thing to do is go through Authentication
+The first thing to do is go through Authentication - making sure you grab the 'current_user' and save that into a variable -- you'll need that later.
 
 ![Authentication](./static/auth.png)
 
